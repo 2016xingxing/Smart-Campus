@@ -225,9 +225,10 @@ return [
     |    "skin-blue", "skin-blue-light", "skin-yellow", "skin-yellow-light",
     |    "skin-green", "skin-green-light", "skin-purple", "skin-purple-light",
     |    "skin-red", "skin-red-light", "skin-black", "skin-black-light".
-    |
+    |  // 自定义颜色
+        skin-myself
     */
-    'skin' => 'skin-blue-light',
+    'skin' => 'skin-myself',
 
     /*
     |--------------------------------------------------------------------------
@@ -241,8 +242,8 @@ return [
     | "sidebar-mini".
     |
     */
-    'layout' => ['sidebar-mini', 'sidebar-collapse'],
-
+//    'layout' => ['sidebar-mini', 'sidebar-collapse'],
+    'layout' => ['fixed', 'sidebar-collapse'],
     /*
     |--------------------------------------------------------------------------
     | Login page background image
